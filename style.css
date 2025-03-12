@@ -186,9 +186,10 @@ h5 {
   }
 }
 @media only screen and (max-width: 580px) {
-  .footer-container {
+  .footer-container, .header-left {
     flex-direction: column;
   }
+  .title-info { padding-left:0 }
 }
 
 
